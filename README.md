@@ -71,8 +71,6 @@ MainTab:AddToggle({
     end
 })
 ```
-
-```
 AddSlider: No Mobile support, sorry!
 ```lua
 MainTab:AddSlider({
