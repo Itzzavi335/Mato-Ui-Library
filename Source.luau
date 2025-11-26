@@ -1,5 +1,4 @@
 -- MatoUI Library
--- I've added notes so everyone can modify it.
 -- DM Itzzavi. in discord for support ( don't forget the dot at the end! )
 
 local MatoUI = {}
