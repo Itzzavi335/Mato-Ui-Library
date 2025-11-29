@@ -654,6 +654,14 @@ function Window:AddTab(name)
         paragraphText.TextYAlignment = Enum.TextYAlignment.Top
         paragraphText.TextWrapped = true
         paragraphText.Parent = paragraphFrame
+
+local paragraphObject = {}
+
+    function paragraphObject:SetContent(newText)
+        paragraphText.Text = newText
+    end
+
+    return paragraphObject
     end
     
     tab.AddSlider = function(_, options)
